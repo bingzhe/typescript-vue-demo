@@ -32,7 +32,7 @@ export default class App extends Vue {
 
   @Watch("list")
   onWatchChagne(value: Array<Todo>) {
-    let string = JSON.stringify(value);
+    let string: string = JSON.stringify(value);
     localStorage.setItem("data", string);
   }
 

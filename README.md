@@ -1,5 +1,7 @@
 # typescript-vue-demo
 
+vue-typescript todo
+
 ## Project setup
 ```
 npm install
